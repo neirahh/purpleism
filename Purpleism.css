@@ -1,0 +1,141 @@
+@font-face {
+	font-family: myFont;
+	src: url(Fonts/font1.ttf);
+}
+
+body {
+  margin: 0;
+	padding: 0;
+  font-family: myFont;
+	background-color: #e1d8f2;
+}
+
+.banner {
+	overflow: hidden;
+	font-size: 5pt;
+  background-color: #6d3dc1;
+}
+
+.marquee {
+  width: 186%;
+	white-space: nowrap;
+	animation: marquee 25s linear infinite;
+}
+
+.marquee h2 {
+	color: yellow;
+	margin-left: 150px;
+	display: inline-block;
+}
+
+@keyframes marquee {
+	to {
+		transform: translateX(-50%);
+	}
+}
+
+h1 {
+	color: #6d3dc1;
+	padding-left: 25pt;
+}
+
+.logo {
+	font-size: 15pt;
+	display: inline-flex;
+}
+
+.search {
+	display: inline-flex;
+	padding-left: 789px;
+}
+
+input {
+	border: none;
+	outline: none;
+  width: 123px;
+	color: #6d3dc1;
+	font-size: 10pt;
+  font-weight: bold;
+	font-family: myFont;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+::placeholder {
+	color: #a78ada;
+}
+
+button {
+	border: none;
+	border-radius: none;
+	position: relative;
+	background-color: transparent;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
+
+.btn {
+	border: none;
+	cursor: pointer;
+}
+
+.nav ul {
+	background-color: #c4b1e6;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	margin-left: -40px;
+}
+
+.nav ul li {
+	position: relative;
+	display: inline-block;
+	font-size: 10pt;
+	font-weight: bolder;
+}
+
+.nav ul li a {
+	display: block;
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #6d3dc1;
+	text-align: center;
+}
+
+.nav ul li:hover {
+	text-decoration: underline;
+}
+
+.subnav {
+	display: none;
+	position: absolute;
+	background-color: #d2c3ec;
+	text-align: center;
+	z-index: 1;
+}
+
+.nav ul li:hover .subnav {
+	display: block;
+	text-align: left;
+}
+
+.subnav li {
+	display: block;
+}
+
+.newdrop {
+  color: #6d3dc1;
+  font-size: 15pt;
+  font-weight: bolder;
+}
+
+.restock {
+  color: #6d3dc1;
+  font-size: 15pt;
+  font-weight: bolder;
+}
+
+.
